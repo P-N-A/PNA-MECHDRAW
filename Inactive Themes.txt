@@ -1,0 +1,282 @@
+
+Theme name: cs1
+Theme data:
+button_component {
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+      button_style: "filled"
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+      button_style: "filled"
+    }
+  }
+  property_set {
+    key {
+      section_style: REGULAR
+      button_style: "filled"
+    }
+  }
+  property_set {
+    key {
+      section_style: REGULAR
+      button_style: "outlined"
+    }
+  }
+  property_set {
+    key {
+      section_style: REGULAR
+      button_style: "text"
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+      button_style: "text"
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+      button_style: "text"
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+      button_style: "outlined"
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+      button_style: "outlined"
+    }
+  }
+}
+divider_component {
+  property_set {
+    key {
+      section_style: REGULAR
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+    }
+  }
+}
+image_carousel_component {
+  property_set {
+    key {
+      section_style: REGULAR
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+    }
+  }
+}
+navigation_component {
+  property_set {
+    nav_background_color {
+      alpha {
+        value: 1.0
+      }
+    }
+    side_nav_item_spacing: 8.0
+    side_selection_style: SHADING
+    top_nav_separator: NONE
+    top_selection_style: TOP_FOREGROUND_COLOR
+    transparent_at_top: false
+    highlight_color {
+      red: 0.07450981
+      green: 0.30980393
+      blue: 0.36078432
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+}
+scheme_color_component {
+  property_set {
+    key {
+      section_style: REGULAR
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+    }
+  }
+}
+section_component {
+  property_set {
+    key {
+      section_style: REGULAR
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+    }
+    background_color {
+      red: 0.99607843
+      green: 0.9411765
+      blue: 0.9098039
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+    }
+    background_color {
+      red: 0.7764706
+      green: 0.8666667
+      blue: 0.91764706
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+}
+site_component {
+  property_set {
+    primary_color {
+      red: 0.2627451
+      green: 0.2627451
+      blue: 0.2627451
+      alpha {
+        value: 1.0
+      }
+    }
+    header_background {
+      resource_id: "1402bIPkzpLYPb2jOhFrpCbUTLoKwIB9D01KtCNwI3sgoSsRHnA"
+      image_rotation: 0
+      overlay_color_style: "DARK"
+      overlay_color_opacity: 0.0
+      anchor: "center center"
+    }
+    unsafe_favicon_image {
+      resource_id: "1KZjxFPufg9POe8BL9QdrlyXUeG9OpqHUGq09WRY0bDnLeHmPyg"
+      size: 1417
+    }
+    unsafe_logo_image {
+      resource_id: "1239AU6WLN0v94cVv6yvsG3G89QNAeNOznQthi-eC96pwyxDcQQ"
+    }
+  }
+}
+text_component {
+  heading_style {
+    heading: 0
+    paragraph_style {
+      line_spacing: 1.0
+      ltr: true
+      spacing_before: 6.0
+    }
+    text_style {
+      bold: true
+      font_size: 12.0
+      foreground {
+        scheme: 0
+      }
+      italic: false
+      weighted_font_family: "Open Sans"
+    }
+  }
+  heading_style {
+    heading: 1
+    paragraph_style {
+      line_spacing: 1.0
+      ltr: true
+      spacing_before: 17.0
+    }
+    text_style {
+      bold: true
+      foreground {
+        scheme: 4
+      }
+      weighted_font_family: "Montserrat"
+    }
+  }
+  heading_style {
+    heading: 2
+    paragraph_style {
+      line_spacing: 1.0
+      ltr: true
+      spacing_before: 9.0
+    }
+    text_style {
+      bold: true
+      font_size: 18.0
+      foreground {
+        scheme: 5
+      }
+      weighted_font_family: "Montserrat"
+    }
+  }
+  heading_style {
+    heading: 3
+    paragraph_style {
+      line_spacing: 1.0
+      ltr: true
+      spacing_before: 7.0
+    }
+    text_style {
+      bold: true
+      font_size: 14.0
+      foreground {
+        scheme: 6
+      }
+      weighted_font_family: "Montserrat"
+    }
+  }
+  heading_style {
+    heading: 102
+    paragraph_style {
+      line_spacing: 1.0
+      ltr: true
+      spacing_before: 4.0
+    }
+    text_style {
+      font_size: 8.0
+      foreground {
+        scheme: 2
+      }
+      weighted_font_family: "Montserrat"
+    }
+  }
+}
+name: "cs1"
+id: "2302f38ab23f7099_50"
+spacing_component {
+  property_set {
+    density: COMPACT
+    frame_selected: false
+  }
+}
+
+----------------------------------------------------
